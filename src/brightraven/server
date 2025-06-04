@@ -1,7 +1,0 @@
-(ns brightraven.server
-(:require [ring.util.response :as resp]
-	  [ring.adapter.jetty :as jetty]
-	  [compojure.core :refer :all]	
-	  [cheshire.core :refer :all]		
-	  [compojure.route :as route]
-	  [compojure.middleware :as midl])
